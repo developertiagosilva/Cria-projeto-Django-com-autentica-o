@@ -1,0 +1,25 @@
+{% load static %}
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Painel</title>
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}" />
+
+  </head>
+  <body>
+
+    <div class="container-painel">
+
+      <h1>ACESSO PERMITIDO!</h1>
+
+      <div class="painel">
+        <p>Bem-vindo, {{ request.user.username }}.</p>
+        <a href="{% url 'sair' %}">Sair</a>
+      </div>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,67 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição e pacotes
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Ferramentas e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Mypy e type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
